@@ -202,4 +202,4 @@ gulp.task('default', ['build', 'webserver', 'watch']);
 
 gulp.task('minify', ['css_min', 'js_min']);
 
-gulp.task('prod', [ 'clean_css','prod_css', 'prod_js', 'clean_js', 'prod_html', 'webserver']);
+gulp.task('prod', [ 'clean_css','prod_css', 'prod_html', 'webserver']);
